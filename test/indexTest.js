@@ -28,6 +28,6 @@ describe( "index.js", () => {
       await fetchBooks().then(() => {
         expect( window.renderBooks ).to.have.been.called();
       })
-    } )
-  } )
+    })
+  })
 })
